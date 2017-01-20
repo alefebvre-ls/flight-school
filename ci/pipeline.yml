@@ -6,6 +6,7 @@ resources:
     branch: master
 
 jobs:
+- fakeparam: test
 - name: test-app
   plan:
   - get: flight-school
